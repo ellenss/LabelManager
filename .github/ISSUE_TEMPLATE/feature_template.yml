@@ -1,0 +1,37 @@
+#Required: false or true only works on public repos. This repo is private. 
+
+name: New Feature
+description: Template for new features
+title: "Title"
+labels: ["feat"]
+projects: ["equinor/650"]
+
+body:
+- type: textarea
+  id: what
+  attributes:
+      label: Description
+      description: "As a [description of user], I want [functionality], so that [benefit]"
+      placeholder: "Clearly define the feat in the form of a user story"
+  validations:
+      required: true
+
+- type: textarea
+  id: acceptancecriteria
+  attributes:
+      label: Acceptance Criteria
+      description: "List of the critical needs the feature must deliver"
+      placeholder: |
+          - Bullet list describing the critical requirements of the feature...
+  validations:
+      required: false
+
+- type: textarea
+  id: teststeps
+  attributes:
+      label: Additional Info
+      description: Additional input on the change
+      placeholder:  |
+          - Any additional points based on developer understanding of the code change....
+  validations:
+      required: false

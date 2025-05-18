@@ -1,0 +1,31 @@
+#Required: false or true only works on public repos. This repo is private. 
+
+name: 📑 New Docs
+description: Template for new documentation
+title: "Title"
+labels: ["docs"]
+projects: ["equinor/650"]
+
+body:
+- type: textarea
+  id: what
+  attributes:
+      label: Description
+      description: "What is to be documented?"
+      placeholder: "Concise description"
+  validations:
+      required: true
+
+- type: textarea
+  id: acceptancecriteria
+  attributes:
+      label: Acceptance Criteria
+      description: "List of the needs this docs should fulfil"
+      placeholder: |
+          - Bullet list describing the critical requirements of the docs...
+          - Things to think about:
+          - Which roles are you writing for?
+          - What problem does this docs solve?
+          - Should I add code examples / installation instructions / configuration / etc?
+  validations:
+      required: false

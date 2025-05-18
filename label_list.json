@@ -1,0 +1,62 @@
+[
+    {
+        "name": "admin",
+        "color": "bfd4f2",
+        "description": "Anything administrative"
+    },
+    {
+        "name": "bug",
+        "color": "d73a4a",
+        "description": "Something isn't working"
+    },
+    {
+        "name": "chore",
+        "color": "e99695",
+        "description": "Everything else.."
+    },
+    {
+        "name": "docs",
+        "color": "0075ca",
+        "description": "Improvements or additions to documentation"
+    },
+    {
+        "name": "feat",
+        "color": "099808",
+        "description": "New feature or request"
+    },
+    {
+        "name": "help wanted",
+        "color": "008672",
+        "description": "Extra attention is needed"
+    },
+    {
+        "name": "invalid",
+        "color": "e4e669",
+        "description": "This doesn't seem right"
+    },
+    {
+        "name": "on hold",
+        "color": "736976",
+        "description": ""
+    },
+    {
+        "name": "question",
+        "color": "d876e3",
+        "description": "Further information is requested"
+    },
+    {
+        "name": "ryddedag",
+        "color": "FBCA04",
+        "description": "Low prio work that's done on our monthly ryddedag"
+    },
+    {
+        "name": "security",
+        "color": "960432",
+        "description": "Security related"
+    },
+    {
+        "name": "wontfix",
+        "color": "ffffff",
+        "description": "This will not be worked on"
+    }
+]

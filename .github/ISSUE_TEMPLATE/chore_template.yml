@@ -1,0 +1,16 @@
+#Required: false or true only works on public repos. This repo is private.
+
+name:  🔧 Chore issue
+description: Describe a chore that needs doing
+title: "Title"
+labels: ["chore"]
+projects: ["equinor/650"]
+
+body:
+    - type: textarea
+      id: taskdetail
+      attributes:
+          label: Chore details... what needs to be done? 
+          placeholder: "Adding some background to help value this task is important."
+      validations:
+          required: true

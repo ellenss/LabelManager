@@ -1,0 +1,28 @@
+#Required: false or true only works on public repos. This repo is private. 
+
+name: 🏦 New Admin
+description: Template for new administration tasks
+title: "Title"
+labels: ["admin"]
+projects: ["equinor/650"]
+
+body:
+- type: textarea
+  id: what
+  attributes:
+      label: Description
+      description: "What is the admin task?"
+      placeholder: "Concise description"
+  validations:
+      required: true
+
+- type: textarea
+  id: acceptancecriteria
+  attributes:
+      label: Acceptance Criteria
+      description: "List of the needs this docs should fulfil"
+      placeholder: |
+          - What problem does this admin task solve?
+          - Bullet list describing critical requirements
+  validations:
+      required: false
